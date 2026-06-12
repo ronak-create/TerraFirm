@@ -6,3 +6,5 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 *.log
+
+claude-code-prompt-terrafirm.md
