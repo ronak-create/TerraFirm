@@ -8,3 +8,6 @@ dist-ssr
 *.log
 
 claude-code-prompt-terrafirm.md
+
+# Local build spec — not for the public repo
+claude-code-prompt-terrafirm.md
