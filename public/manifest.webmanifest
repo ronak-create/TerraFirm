@@ -1,0 +1,12 @@
+{
+  "name": "TERRAFIRM — global business atlas",
+  "short_name": "TERRAFIRM",
+  "description": "A live 3D globe that becomes a street map — every business on Earth, shaded by density. Free open data, no API keys.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05090F",
+  "theme_color": "#05090F",
+  "icons": [
+    { "src": "/globe.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

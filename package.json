@@ -1,0 +1,35 @@
+{
+  "name": "terrafirm",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TERRAFIRM — a global business atlas on a 3D globe, powered entirely by free live data.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.mjs",
+    "og": "node scripts/build-og.mjs"
+  },
+  "dependencies": {
+    "h3-js": "^4.1.0",
+    "maplibre-gl": "^5.1.0",
+    "pmtiles": "^4.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "supercluster": "^8.0.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/supercluster": "^7.1.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}

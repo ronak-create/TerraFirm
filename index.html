@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/globe.svg" />
+    <link rel="apple-touch-icon" href="/globe.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#05090F" />
+    <meta name="color-scheme" content="dark" />
+    <title>TERRAFIRM · global business atlas</title>
+    <meta name="description" content="A live 3D globe that becomes a street map — every business on Earth, shaded by density, powered entirely by free open data. No API keys." />
+
+    <!-- Open Graph (Facebook / LinkedIn / Slack / Discord) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TERRAFIRM" />
+    <meta property="og:title" content="TERRAFIRM · global business atlas" />
+    <meta property="og:description" content="A live 3D globe that becomes a street map — every business on Earth, shaded by density. Free open data, no API keys." />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TERRAFIRM · global business atlas" />
+    <meta name="twitter:description" content="A live 3D globe that becomes a street map — every business on Earth, shaded by density. Free open data, no API keys." />
+    <meta name="twitter:image" content="/og.png" />
+
+    <!--
+      When you point a real domain at this deploy, set absolute URLs for the
+      best link previews (some crawlers require them):
+        <meta property="og:url"   content="https://your-domain.com/" />
+        <meta property="og:image" content="https://your-domain.com/og.png" />
+        <link rel="canonical"     href="https://your-domain.com/" />
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bg" cx="72%" cy="38%" r="85%">
+      <stop offset="0%" stop-color="#0c1622"/>
+      <stop offset="55%" stop-color="#070d16"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <radialGradient id="globe" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e2230"/>
+      <stop offset="80%" stop-color="#081420"/>
+      <stop offset="100%" stop-color="#050b12"/>
+    </radialGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd27a"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- globe -->
+  <g transform="translate(880 315)">
+    <circle r="232" fill="url(#globe)" stroke="#152330" stroke-width="2"/>
+    <circle r="232" fill="none" stroke="#27e0c8" stroke-width="1.5" opacity="0.45"/>
+    <g fill="none" stroke="#27e0c8" stroke-width="1" opacity="0.30">
+      <ellipse rx="232" ry="78"/>
+      <ellipse rx="232" ry="150"/>
+      <ellipse rx="78" ry="232"/>
+      <ellipse rx="150" ry="232"/>
+      <line x1="-232" y1="0" x2="232" y2="0"/>
+    </g>
+    <g fill="#f5a623">
+      <circle cx="-60" cy="-70" r="4.5"/>
+      <circle cx="40" cy="-30" r="4.5"/>
+      <circle cx="120" cy="40" r="4.5"/>
+      <circle cx="-110" cy="60" r="4.5"/>
+      <circle cx="-20" cy="120" r="4.5"/>
+      <circle cx="80" cy="-120" r="4.5"/>
+    </g>
+    <g fill="#27e0c8">
+      <circle cx="-150" cy="-20" r="3.5"/>
+      <circle cx="10" cy="60" r="3.5"/>
+      <circle cx="160" cy="-50" r="3.5"/>
+      <circle cx="60" cy="150" r="3.5"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="96" y="250" fill="#f4f7fb" font-size="92" font-weight="800" letter-spacing="6">TERRAFIRM</text>
+    <text x="100" y="312" fill="url(#amber)" font-size="30" font-weight="600" letter-spacing="8">GLOBAL BUSINESS ATLAS</text>
+    <text x="100" y="392" fill="#9fb1c4" font-size="32" font-weight="400">A live 3D globe that becomes a street map —</text>
+    <text x="100" y="436" fill="#9fb1c4" font-size="32" font-weight="400">every business on Earth, shaded by density.</text>
+    <text x="100" y="520" fill="#5d7086" font-size="24" font-weight="500" fill-opacity="0.9">Free open data · No API keys · OpenStreetMap · Wikidata</text>
+  </g>
+</svg>
