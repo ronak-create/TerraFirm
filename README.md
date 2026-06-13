@@ -236,3 +236,31 @@ Other drop-in sources that fit the same `Business`/`Company` shape:
 - Company data from [Wikidata](https://www.wikidata.org) (CC0)
 - Base tiles by [OpenFreeMap](https://openfreemap.org)
 - Country borders from [Natural Earth](https://www.naturalearthdata.com/)
+
+
+---
+
+## Contributing
+
+Contributions are welcome and appreciated! Whether it is a bug fix, a new data source, or a documentation improvement, please read the [Contributing Guide](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before you start.
+
+Good places to begin:
+
+- Browse the [open issues](https://github.com/ronak-create/TerraFirm/issues), especially those labelled `good first issue` and `help wanted`.
+- Open an [issue](https://github.com/ronak-create/TerraFirm/issues/new/choose) to report a bug or propose a feature.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of notable changes to the project.
+
+## License
+
+Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
+
+## Acknowledgements
+
+- [OpenStreetMap](https://www.openstreetmap.org) contributors for the map data.
+- [Wikidata](https://www.wikidata.org) for the company data.
+- [OpenFreeMap](https://openfreemap.org) for the base tiles.
+- [Natural Earth](https://www.naturalearthdata.com) for country borders.
+- [MapLibre GL JS](https://maplibre.org), [H3](https://h3geo.org), and [supercluster](https://github.com/mapbox/supercluster) for the rendering stack.
