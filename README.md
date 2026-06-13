@@ -1,4 +1,23 @@
-# TERRAFIRM — global business atlas
+<div align="center">
+
+# 🌍 TERRAFIRM
+
+### The global business atlas — a live, keyless map of the world's companies
+
+A dark, full-bleed 3D globe that becomes a street map as you zoom in, rendering the world's businesses on top of live, free, keyless data.
+
+[**🚀 Live Demo**](https://terra-firm-rouge.vercel.app) · [Report a Bug](https://github.com/ronak-create/TerraFirm/issues/new?template=bug_report.md) · [Request a Feature](https://github.com/ronak-create/TerraFirm/issues/new?template=feature_request.md)
+
+![License](https://img.shields.io/github/license/ronak-create/TerraFirm?color=blue)
+![Stars](https://img.shields.io/github/stars/ronak-create/TerraFirm?style=social)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre%20GL-v5-396CB2?logo=maplibre&logoColor=white)
+
+</div>
+
 
 A dark, full-bleed **3D globe that becomes a street map** as you zoom in, rendering
 the world's businesses on top of live, free, keyless data. Spin the globe to see
