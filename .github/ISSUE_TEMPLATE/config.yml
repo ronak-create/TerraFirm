@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/ronak-create/TerraFirm/discussions
+    about: Ask questions, share ideas, and discuss TerraFirm with the community.
+  - name: Live demo
+    url: https://terra-firm-rouge.vercel.app
+    about: Try the live deployment before filing an issue.    
